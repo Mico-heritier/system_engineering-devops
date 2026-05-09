@@ -2,3 +2,4 @@
 # This script creates an empty file called hello in the current directory
 touch hello
 
+touch hello
