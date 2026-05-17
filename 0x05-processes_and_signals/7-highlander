@@ -1,15 +1,10 @@
 #!/usr/bin/env bash
-# This trap catches the SIGTERM signal.
-# Instead of stopping the script,
-# it prints "I am invincible!!!"
-trap 'echo "I am invincible!!!"' SIGTERM
+# Displays a message forever and handles SIGTERM
 
-# Infinite loop
+trap "echo I am invincible!!!" SIGTERM
+
 while true
 do
-    # Display message
     echo "To infinity and beyond"
-
-    # Wait 2 seconds before repeating
     sleep 2
 done
