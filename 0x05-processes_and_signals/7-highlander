@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # This trap catches the SIGTERM signal.
 # Instead of stopping the script,
 # it prints "I am invincible!!!"
